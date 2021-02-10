@@ -1,3 +1,4 @@
+#COPYRIGHT BY @SUMIT GOLE - Hey Don't Smarter Than Me Ok.. I will Catch Everything If You Copied My Code..
 from turtle import *
 speed(200)
 bgcolor('black')
