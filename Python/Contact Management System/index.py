@@ -1,9 +1,9 @@
+#COPYRIGHT BY @SUMIT GOLE - Hey Don't Smarter Than Me Ok.. I will Catch Everything If You Copied My Code..
 from tkinter import *
 import sqlite3
 import tkinter.ttk as ttk
 import tkinter.messagebox as tkMessageBox
 
-#DEVELOPED BY Mark Arvin
 root = Tk()
 root.title("Contact List")
 width = 700
