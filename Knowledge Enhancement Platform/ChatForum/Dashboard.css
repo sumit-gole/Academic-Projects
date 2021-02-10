@@ -1,0 +1,34 @@
+<style>
+		*{
+			margin: 0px; padding: 0px; font-family: sans-serif;}
+		#sidebar{
+			position: fixed;
+			width: 200px;
+			height: 100%;
+			background: #111;
+			left: -200px;
+			transition: left 500ms linear;
+			margin-top: 30px;
+		}
+		#sidebar .list .item{
+			color: white;
+			padding: 10px 8px;
+			border-bottom: 1px solid #444;
+			font-family: sans-serif;
+			text-transform: uppercase;
+		}
+		#toggle-btn{
+			position: absolute;
+			left: 230px;
+			top: 20px;
+		}
+		#toggle-btn span{
+			display: block;
+			width: 30px;
+			height: 5px;
+			background: white;
+			margin: 5px 0px;
+			cursor : pointer;
+		}
+		#sidebar.active{left: 0px;}
+</style>

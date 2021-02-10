@@ -1,0 +1,41 @@
+*{  margin: 0px; padding: 0px;  }
+#ChatDiv{
+	border: 10px solid grey; 
+	width: 450px; 
+	height: 500px;
+	margin: 24px auto; 
+}
+
+#msgArea{
+	width: 350px; 
+	height: 380px;
+	margin: 24px auto;
+	padding: 0% 1%; 
+	border: 5px solid grey;
+}
+		
+#textmsg{
+	width: 250px; 
+	height: 40px;
+	border-radius: 20px; 
+	margin-left: 45px; 
+	margin-top: -3px; 
+	padding-left: 20px; 
+	font-family:sans-serif ;
+	font-size: 20px; 
+	background: #f1f1f1; 
+}
+
+#submit{
+	width: 85px; 
+	height: 40px;
+	border-radius: 20px; 
+	background-color: #008CBA; 
+	color:white; 
+	border:none; 
+	cursor:pointer; 
+}
+		
+#submit:hover{
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
