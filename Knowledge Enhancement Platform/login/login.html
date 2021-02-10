@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Login Form</title>
+		<link href="css.css" type="text/css" rel="stylesheet"/>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<a href="HomePage.html"><img src="logo.png"/></a>
+					<div class="container1">
+						<div id="container3">
+							<img src="img.png"  height="0170" width="0170"/>
+							<h3 id="heading2"><span>Hey!</span> Login here</h3>
+						</div>
+						<h1 id="heading">Login</h1>
+						<form>
+							<input type="email" class="e" placeholder="Email"><br>
+							<input type="text" class="e" placeholder="Password" ><br>
+							<input type="submit" value="submit" class="submit"/><br><br>
+						</form>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>New Member</b>
+						<select name="menu1" id="menu1">
+							<option>Select User</option>
+							<option value="student_reg.html">Student</option>
+							<option value="teacher_reg.html">Teacher</option>
+							<option value="director_reg.html">Director</option>
+							<option value="institute_reg.html">Institute</option>
+						</select>
+					</div>          
+				</div>
+			 </div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+ var urlmenu = document.getElementById( 'menu1' );
+ urlmenu.onchange = function() {
+      window.open(  this.options[ this.selectedIndex ].value );
+ };
+</script>
+</html>
