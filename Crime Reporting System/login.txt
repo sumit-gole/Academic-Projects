@@ -1,0 +1,26 @@
+<%
+		set conn=Server.CreateObject("ADODB.Connection")
+			conn.Provider="Microsoft.Jet.OLEDB.4.0"
+			conn.Open(Server.Mappath("Foodplaza.mdb"))
+			set rs = Server.CreateObject("ADODB.recordset")
+%>
+
+<%
+		dim uname,pass,am
+		ins="Login"
+		am=request("btnLogin")	
+		if(am=ins) then
+			
+		sql="select uname,pswd from Registration where uname='"& request.form("txtUsername") & "' And pswd='"& request.form("txtPassword") & "'"
+		rs.Open sql, conn
+		if rs.EOF then
+		response.Write("<script>alert('Login fail:');</script>")
+		else
+		Session.Timeout=5
+		Session("username")=rs("uname") 
+		'response.Write("<script>alert('Login successfull');</script>")	
+		Response.Redirect("main page.html")
+
+		end if
+		end if
+%>

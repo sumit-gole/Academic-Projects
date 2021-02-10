@@ -1,0 +1,112 @@
+<html>
+<head>
+    <style type="text/css">
+        .timelineBlock{
+            -webkit-appearance: none;
+            align-items: flex-start;
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-color: #FFA500;
+            background-origin: padding-box;
+            background-size: auto;
+            border-bottom-color: black;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-image-outset: 0px;
+            border-image-repeat: stretch;
+            border-image-slice: none;
+            border-image-width: 1;
+            border-left-color: black;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-right-color: black;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-top-color: black;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            box-shadow: #80B2FF 0px 1px 1px 0px inset;
+            box-sizing: border-box;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            direction: ltr; 
+            display: inline-block;
+            font-family: 'Arial','Helvetica Neue','Segoe UI','Malgun Gothic',Meiryo,'Microsoft JhengHei',helvetica,arial,sans-serif;
+            font-size: 18px;
+            font-stretch: normal;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 15.12px;
+            margin-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 10px;
+            min-width: 194px;
+            padding-bottom: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 7px;
+            position: relative;
+            /*text-align: center;*/
+            text-indent: 0px;
+            text-rendering: optimizeLegibility;
+            text-shadow: rgba(0,0,0,0.498039);
+            text-transform: none;
+            width: 650px;
+            word-spacing: 0px;
+            writing-mode: lr-tb;
+            -webkit-writing-mode: horizontal-tb;
+            zoom:1;
+            /*left:37px;
+            top: 515px;*/
+            position: absolute;
+
+        }
+    </style>
+</head>
+<body>
+<div class="timelineBlock" style="height: 130px; box-shadow: 5px 10px;">
+    <form>
+<!-- Div Tag for Audio (OPEN) -->
+    <div class="timelineBlock" style="height: 130px; box-shadow: 5px 10px;">
+        <form>
+            <img src="Images\Media.png" style="margin-top: 1px; margin-left: -290px;">
+            <ul class="audioList" style="float: left;margin-left:25px; margin-top: 40px;">
+                <li><input type="radio" id="radio1" name="r" onchange="playAudio(this.id)" checked="true">&nbsp;Audio1&nbsp;&nbsp;<a href="Transcript/Transcript1.docx" download>Transcript 1</a></li>
+                <li><input type="radio" id="radio2" name="r" onclick="playAudio(this.id)">&nbsp;Audio2&nbsp;&nbsp;<a href="Transcript/Transcript2.docx" download>Transcript 2</a></li>
+                <li><input type="radio" id="radio3" name="r" onchange="playAudio(this.id)">&nbsp;Audio3&nbsp;&nbsp;<a href="Transcript/Transcript3.docx" download>Transcript 3</a></li>
+                <li><input type="radio" id="radio4" name="r" onchange="playAudio(this.id)">&nbsp;Audio4&nbsp;&nbsp;<a href="Transcript/Transcript4.docx" download>Transcript 4</a></li>
+            </ul>
+        
+            <audio controls id="audioPlayer" style="margin-top: 50px;float: right;">
+                <source id="audioSource1" src="Transcript\Audio1.mp3" type="audio/mp3">
+                                                    Your browser does not support the audio element.
+                <source id="audioSource2" src="Transcript\Audio2.mp3" type="audio/mp3">
+                                                    Your browser does not support the audio element.
+                <source id="audioSource3" src="Transcript\Audio3.mp3" type="audio/mp3">
+                                                    Your browser does not support the audio element.
+                <source id="audioSource4" src="Transcript\Audio4.mp3" type="audio/mp3">
+                                                    Your browser does not support the audio element.
+            </audio><br/>
+        </form>   
+    </div>
+    <script type="text/javascript">
+        var x=document.getElementById('audioPlayer');
+        function playAudio(id){
+                if(radio1.checked==true){
+                x.play();
+                }
+                else{
+                    x.pause();
+                }
+        }
+    </script>
+    <!-- Div Tag for Audio (CLOSE) -->
+</body>
+</html>

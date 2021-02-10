@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form </title>
+	<style>
+		#banner ul li{list-style:none;}
+		/*  Text Scroll Bar..  */
+		div.digimarquee{
+			position: static;height: 325px;width: 650px;overflow: auto;
+		}
+	</style>
+
+	<!-- <link rel="stylesheet" href="CSS-FILE\login.css"> -->
+	<link href="CSS-FILE\Menu.css" rel="stylesheet">
+	<link href="Images\Web.css" rel="stylesheet">
+	<script>
+	function usernames()
+	{
+		var name=document.getElementById("fname1").value;
+		var name1=name.substring(0,4);
+		var mobile=document.getElementById("mobile1").value;
+		var mob=mobile.substring(7);
+		var username1=name1.concat(mob);
+		document.getElementById("username").value=username1;
+	}
+	</script>
+	
+	<script>
+	function validatePhoneNo(mob)
+	{
+		var phoneno = /^\d{10}$/;
+		if(mob.value.match(phoneno))
+		{
+			return true;
+		}
+		else
+		{
+			alert("Not a valid Phone Number");
+			return false;
+		}
+	}
+
+    function validate() 
+	{
+        var password = document.getElementById("pswd").value;
+        var confirmPassword = document.getElementById("cpswd").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not Match..!!");
+            return false;
+        }
+        return true;
+    }
+
+	function validateEmail(mail)
+	{
+		var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+		if(mail.value.match(mailformat))
+		{
+			return true;
+		}
+		else
+		{
+			alert("Invalid Email Address!");
+			return false;
+		}
+	}
+	function concatUserName()
+	{	
+		var name=document.getElementById("fname").value;
+		var mob=document.getElementById("mob").value;
+		var uname=name.concat(mob);
+		document.getElementById("demo").innerHTML=uname;
+	}
+</script>
+</head>
+<body class="body_bg" link="#C0C0C0" vlink="#FFFFFF" alink="#FF0000">
+
+<div class="main1" style="margin-left: -8px;margin-right: -8px; margin-top: -16px; background-image: url('Images/bgimg.jpg');">
+<div class="main2" style="margin-left: 58px;margin-right: 58px; background-color: white;">
+<!-- 1st Div Tag (Block) "OPEN"  -->
+<div class="top" >
+	<table cellspacing="5">
+	<b><font color="white"><p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BHARAT SARKAR &nbsp;&nbsp;| &nbsp; GRRIH MANTRALAYA </br> &nbsp;&nbsp;&nbsp;GOVERNMENT OF INDIA    &nbsp;| &nbsp; Maharashtra State Police  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href="#" onClick="changeSizeHome=('large') "> [A+]</a><a style=" text-decoration: none;" href="#"> [A]</a> <a style="text-decoration: none;" href="#">[A-]</a></p></font></b></table>
+<style> 
+	div.top{background:#18559B;}
+</style>
+</div>
+<!-- 1st Div Tag (Block) "CLOSE"  -->
+
+<!-- 2nd Div Tag (Block) "OPEN"  -->
+<div class="secondRow" style="color: black;">
+	<img src="Images\logo1.png"height="170" width="200" style="float: left; margin-left: 15px;"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="Images\smj1.jpeg" height="90" width="70" style="float:center;margin-top: 20px;margin-bottom: -20px; margin-left:50px"/>  
+	<h1 align="center" style="margin-right:200px;text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9b9,0 5px 0 #aaa,0 0 6px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);   font-family:serif;">ONLINE CRIME BUREAU </h1>
+	<img src="Images\DGP.png" height="160" width="190" style="float:right; margin-right: 20px;margin-top: -165px;"/>
+</div>
+<style>
+	.secondRow
+	{
+		 border-bottom: 2px darkgrey solid; border-bottom-width: medium; border-top: 2px darkgrey solid;
+	}
+</style>
+<!-- 2nd Div Tag (Block) "CLOSE"  -->
+
+<!-- 3rd Div Tag (Block) "OPEN"  -->
+<div class="top3" style="background-color: grey; height: 55px;-webkit-box-shadow: 0 8px 18px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black;">
+	<a href="CrimeHome.asp"><img src="Images\home.png" height="50" width="50" style="margin-left: 90px; margin-top: 2px;"></a>
+<style> 
+	div.top{background:#18559B;}
+</style>
+</div>
+<!-- 3rd Div Tag (Block) "CLOSE"  -->
+
+<!-- 4th  Div Tag SignUp Form "OPEN" -->
+<div class="signup" style="width : 78%; height : 427px;margin-left: 140px;margin-top: 45px; -webkit-box-shadow: 0 13px 40px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black;">
+	<img src="Images\purplebg.png">
+	<p id="demo"></p>
+	<div class="registration" target="targett" style="color: black;margin-top: -440px;margin-left: 400px; ">
+
+		<form name="form1" method="post" action="Registration.asp">
+	
+			<h2  style="color: #534389; margin-left: 6px; padding: 20px"><u> Sign Up</u> </h2>
+			<h4><label style="margin-left:14px;">First Name : </label><input type="text" id="fname1" name="fname" class="fname" placeholder=" FIRST NAME  " required style="margin-left: 4px; width: 150px;">
+
+			<div style="margin-top: -10%;margin-left: 49%;">
+			<h4><label>Last Name : </label><input type="text" name="lname" class="fname" placeholder=" LAST NAME  " required style="margin-left: 10px; width: 150px;"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+			</div>
+
+			<div style="margin-top: -35px;">
+			<label style="margin-left:15px;">Email : </label><input type="text" name="mail" class="regi" id="email" placeholder=" EMAIL  " required style="width: 150px; margin-left: 43px;"> &nbsp;&nbsp;&nbsp;
+
+			<label style="margin-left:-10px;">Mobile No. : </label><input type="text" id="mobile1" name="mob" class="regi" placeholder=" MOBILE NUMBER  "required style="width: 150px;margin-left:10px;"><br><br>
+
+			<label style="margin-left:12px;">Select ID : </label><select name="idtype" class="selectID"  required style="width: 153px; height: 37px;margin-left: 22px">
+				<option>--SELECT--</option>
+				<option>  Aadhar Card  </option>
+				<option>  Driving License  </option>
+				<option>  Election Card  </option>
+				<option>  Pan Card  </option>
+				<option>  Passport  </option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<label>ID No. : </label><input type="text" name="idd" class="regi" placeholder=" ID "required style="margin-left: 36px; width: 150px;"><br><br>
+
+			<label style="margin-left: 15px;">Password : </label><input type="password" id="pswd" name="pswd" class="regi" placeholder=" PASSWORD " required style="margin-left: 10px; width:150px;" pattern="[A-Za-z]{6}" required>&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<label>Cmf Pswd : </label><input type="password" id="cpswd" name="cpswd" class="regi" placeholder=" CONFIRM PASSWORD " style="width: 150px; margin-left:3px;" required pattern="[A-Za-z]{6}"required><br><br>
+
+			<input type="button" value="Get Username" onclick="usernames()" style="margin-left: 18px; margin-top: -20px; width: 25%; height: 25px;" required />
+			<input type="text" name="user" id="username" style="margin-left: 80px; width: 25%; height: 25px;font-size: 30px;border: none;" readonly />
+
+			</h4>
+
+			<div class="inputBox" style="margin-top:-300px; margin-left:50px;">
+		        <input type="submit" value="SUBMIT" class="submitButton" onclick="validatePhoneNo(document.form1.mob); validate();validateEmail(mail);concatUserName();"/>
+
+				<a href="UserLogin.asp"><input type="button" value="CANCEL" class="submitButton" style="margin-left:100px;margin-top: 10px;"/></a>
+		    </div>
+
+		    <h4 style="margin-left: 225px;margin-top: 4px;"><a href="UserLogin.asp" style="color: #534389;"> Back To Login </a></h4></div>
+		</form>
+	</div>
+</div>
+<!-- 4th  Div Tag  Sign UP Form "CLOSE" -->
+
+</div> <!--  Main2 Div Tag Close-->
+
+<!-- 5th Div Tag (Block) for Footer Info. "OPEN" -->
+	<div class="footer-copyright" style="margin-top: 50px; height: 55px;">
+		<strong class="copy">
+			<p>© Content Owned by Maharashtra State Police, Government of India</p>
+		</strong>
+	</div>
+<!-- 5th Div Tag (Block) for Footer Info. "CLOSE" -->
+
+</div>
+</body>
+</html>
