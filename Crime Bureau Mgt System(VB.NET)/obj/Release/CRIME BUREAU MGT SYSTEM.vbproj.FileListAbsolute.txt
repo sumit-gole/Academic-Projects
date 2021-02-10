@@ -1,0 +1,31 @@
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\bin\Release\CrimeDB.mdb
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\bin\Release\CRIME BUREAU MGT SYSTEM.exe.config
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\bin\Release\CRIME BUREAU MGT SYSTEM.exe
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\bin\Release\CRIME BUREAU MGT SYSTEM.pdb
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\bin\Release\CRIME BUREAU MGT SYSTEM.xml
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\ResolveAssemblyReference.cache
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm11SearchCriminal.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm1Lgin.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm3Complaint.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm4FIRR.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm5Criminal.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm6Judgement.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm7Mostwanted.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm8Postmortem.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Frm9Complaintt.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.MDIHomePage.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.Resources.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptComplaint.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptCriminall1.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptFIRR.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptJudgementt.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptMostWantedd.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.RptPostMortemm.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.SearchFormMostWanted.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.SearchFrmFIR.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.SearchFrmJudgement.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\WindowsApplication1.SearchFrmPostMortem.resources
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\CRIME BUREAU MGT SYSTEM.vbproj.GenerateResource.Cache
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\CRIME BUREAU MGT SYSTEM.exe
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\CRIME BUREAU MGT SYSTEM.xml
+G:\CRIME BUREAU MGT SYSTEM\CRIME BUREAU MGT SYSTEM\obj\Release\CRIME BUREAU MGT SYSTEM.pdb
