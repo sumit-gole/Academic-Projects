@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title> Knowledge Enhancement Platform - Education </title>
+			<!-- ***********  BOOTSTRAP FOR SOCIAL ICONS  ************* -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+			<script type="text/javascript">
+				$(document).ready(function()
+				{
+					$("a").on('click'),function(event)
+					{
+						if(this.hash !== "")
+						{
+							event.preventDefault();
+							var hash = this.hash;
+							$('html,body').animate(
+							{scrollTop:$(hash).offset().top},800,function()
+							{
+								windows.location.hash=hash;
+							});
+						}
+					});
+				});
+			</script>
+		</head>
+		<body>	
+		  <!--   Header Section Start -->
+		  <header id="header" id="home">
+	  		<div class="header-top">
+	  			<div class="container">
+			  		<div class="row">
+			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding" style="margin-left: -120px;">
+			  				<ul>
+								<a href="https://www.facebook.com/DYPIMCAM/"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="https://twitter.com/mcambaplacement"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="https://www.instagram.com/iam.sumiit/?hl=en"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="https://in.linkedin.com/in/dypimca-mba-88aa62148"><i class="fa fa-linkedin"></i></a>
+			  				</ul>			
+			  			</div>
+			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding" style="margin-left: -60px;">
+			  				<a href="tel:(020) 27640998" ><span class="lnr lnr-phone-handset"></span> <span class="text">(020) 27640998</span></a>
+			  				<a href="enquiry@dypimca.org"style="margin-right: -140px;"><span class="lnr lnr-envelope"></span> <span class="text">kefEdu999@gmail.com.in</span></a>			
+			  			</div>
+			  		</div>			  					
+	  			</div>
+			</div>	
+		 	<!--   Header Section End -->
+
+			<div style="font-size: 20px;margin-left: 1325px;margin-top: -28px;">
+				<div style="float:left;"><label class="fa fa-user" style="font-size: 25px;color: white;"></label>&nbsp;&nbsp;</div>
+				<div><select onchange="javascript:handle(this)" style="border:none; background-color: transparent;color: white;">
+					<option style="color: black;">Login as</option>
+					<option value="discussionforum/admin/login"style="color: black;" >Admin</option>
+					<option value="Student/login"style="color: black;" >Student</option>
+					<option value="Institute/login" style="color: black;">Institute</option>
+					<option value="Director/login" style="color: black;">Director</option>
+					<option value="Teacher/login" style="color: black;">Teacher</option></b>
+				</select></div>
+				<script>
+					function handle(elm){
+						window.location=elm.value+".php";
+					}
+				</script>
+			</div>
+
+
+		  	<!--   Menu Bar Section Start -->
+		    <div class="container main-menu">
+
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="HomePage.html"><img src="img/logo.png"/></a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a href="HomePage.html">Home</a></li>
+			          <li><a href="About.html">About</a></li>
+			          <li><a href="#">Curriculum </a>
+			            <ul>
+			              <li><a href="student/login.php">Q & A Discussion Forum</a></li>
+			              <li><a href="student/login.php">Assignment</a></li>
+			              <li><a href="student/login.php">Exams</a></li>
+			            </ul>
+			          </li>
+			          <li><a href="#event">Events</a></li>
+			          <li><a href="Gallery.html">Gallery</a></li>        					          		          
+			          <li><a href="feedback.html">Contact</a></li>
+			        </ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		    <!--   Menu Bar Section End -->
+		  </header>
+
+			<!-- Start Banner Area -->
+			<section class="banner-area relative" id="home">
+				<div class="overlay overlay-bg"></div>	
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-between">
+						<div class="banner-content col-lg-9 col-md-12" style="margin-top: -210px;">
+							<h1 class="text-uppercase">
+								We Ensure better education
+								for a better world			
+							</h1>
+							<p class="pt-10 pb-10">
+								Education is the Key to Success in Life, and Teachers make a lasting impact in the lives of their Students.
+							</p>
+							<a href="#" class="primary-btn text-uppercase">Get Started</a>
+						</div>										
+					</div>
+				</div>					
+			</section>
+			<!-- End Banner Area -->
+
+			<!-- Start feature Area -->
+			<section class="feature-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-feature">
+								<div class="title">
+									<a href="expertvideos.html"><h4>Learn From The Experts</h4></a>
+								</div>
+								<div class="desc-wrap" style="-webkit-box-shadow: 0 8px 25px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black;margin-left: 130px; margin-top: 60px; width: 350px; margin-left: 1px; margin-top: 1px;">
+									<p>
+										"LISTEN CORRECT AND IMPROVE YOURSELF...!!!"
+									</p>
+									<a href="expertvideos.html">See Now</a>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-feature">
+								<div class="title">
+									<a href="studymaterial.html"><h4>Book & Library </h4></a>
+								</div>
+								<div class="desc-wrap" style="-webkit-box-shadow: 0 8px 25px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black;margin-left: 130px; margin-top: 60px; width: 350px; margin-left: 1px; margin-top: 1px;">
+									<p>
+										"A NEW WAY OF LEARNING WITHOUT PEN AND PAPER.....!!!"
+									</p>
+									<a href="studymaterial.html">See Now</a>									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="single-feature">
+								<div class="title">
+									<a href="Faculty.html"><h4>Certified Teachers</h4></a>
+								</div>
+								<div class="desc-wrap" style="-webkit-box-shadow: 0 8px 25px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black;margin-left: 130px; margin-top: 60px; width: 350px; margin-left: 1px; margin-top: 1px;">
+									<p>
+										"TEACHER IS KEY WHICH UNLOCKS THE WAY OF YOUR SUCCESS..!!!!!!"
+									</p>
+									<a href="Faculty.html">See Now</a>									
+								</div><br>
+							</div>
+						</div>												
+					</div>
+				</div>	
+			</section>
+			<!-- End feature Area -->
+			
+			<!-- Announcemts Tag (Block) "OPEN"  -->
+			<div class="forScrollNews">
+				<span>
+					<h3 style="background-color: white; border: 1px black solid; width: 260px; height: 60px; padding-top: 10px;">&nbsp;&nbsp;&nbsp;NEWS & UPDATES : </h2><div style="color: white; margin-top: -60px;">
+					<marquee style="margin-left: 260px; height: 60px; padding-top: 15px; border: 1px solid black;" bgcolor="black(x,x,x)" scrollamount="13" onmouseover="this.stop();" onmouseout="this.start();">
+						<h3 ><b> <a href="" style="color: white;">"Hackthon 2019 Has been announced in the month of November." </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" style="color: white;">"Expert session on INTERNET OF THINGS by Mr.Parth Shukla in the month of December." </a>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" style="color: white;">"Student developement programs in the month of november, GO FOR REGISTRATION." </a></b></h3>
+					</marquee></div>
+				</span>
+			</div>
+			<!-- Announcements Tag (Block) "CLOSE"  -->
+			
+			
+			<!-- Start upcoming-event Area -->
+		
+			<section id="event" class="upcoming-event-area section-gap" style="-webkit-box-shadow: 0 8px 25px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black; width: 1250px; height: 430px; margin-left: 130px; margin-top: 60px;">
+				
+				<div class="container" style="margin-top: -60px;">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">UPCOMING EVENTS...!!!! </h1>
+								<p>If you want to see the Complete Information of our Institute's Events, then Click on it</p>
+							</div>
+						</div>
+					</div>								
+					<div class="row">
+						<div class="active-upcoming-event-carusel" style="margin-top: -30px">
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/Agile.jpg" style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>31th October, 2019</p>
+									<a href="#"><h4>STAR AGILE</h4></a>
+									<p>
+										This is the workshop for Certified Scrum Master(CSM)on agile develpoement. 
+									</p>
+								</div>
+							</div>
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/wings to soar.jpg"style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>23th november, 2019</p>
+									<a href="#"><h4>Wings to Soar</h4></a>
+									<p>
+										We serve to give you opportunities for global studies for golbal management studies.
+									</p>
+								</div>
+							</div>	
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/swb.jpg"style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>2nd October, 2019</p>
+									<a href="#"><h4>Swachh Bharat Abhiyan</h4></a>
+									<p>
+										Clean INDIA Green INDIA.
+									</p>
+								</div>
+							</div>	
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/digital marketing.jpeg"style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>2nd October, 2019</p>
+									<a href="#"><h4>Digital Marketing</h4></a>
+									<p>
+										Seminar on Digital Marketing to develop the marketing skills.
+									</p>
+								</div>
+							</div>
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/robotics.jpg" style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>19th DECEMBER, 2019</p>
+									<a href="#"><h4>ROBOTIC PROCESS AUTOMATION</h4></a>
+									<p>
+										Workshop on robotics for understanding the concepts and working of robots.
+									</p>
+								</div>
+							</div>	
+							<div class="single-carusel row align-items-center">
+								<div class="col-12 col-md-6 thumb">
+									<img class="img-fluid" src="img/ai.jpg"style="height:150px;width:300px">
+								</div>
+								<div class="detials col-12 col-md-6">
+									<p>2nd December, 2019</p>
+									<a href="#"><h4>Artificial Intelligece</h4></a>
+									<p>
+										Seminar on AI to understand the detailed working and need.
+									</p>
+								</div>
+							</div>																						
+						</div>
+					</div>
+				</div>	
+			
+			</section><br><br>
+
+			<!-- End upcoming-event Area -->
+						
+			<!-- Start Posts Area -->
+			<section class="blog-area section-gap" id="blog" style="-webkit-box-shadow: 0 8px 25px -6px black; -moz-box-shadow: 0 8px 6px -6px black; -box-shadow: 0 8px 6px -6px black; width: 1250px; height: 700px; margin-left: 130px; margin-top: 60px;">
+				<div class="container" style="margin-top: -50px;">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">DEVELOPEMENT PROGRAMS...!!!! </h1>
+								<p>Click below for more information.</p>
+							</div>
+						</div>
+					</div>					
+					<div class="row" style="margin-top: -50px;">
+						<div class="col-lg-3 col-md-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="img/sdp.jpg"style="height:200px;width:250px">								
+							</div>
+							<p class="meta">2 November, 2019  |  
+							<a href="blog-single.html">
+								<h5>Student Develpoment counselling </h5>
+							</a>
+							<p>
+								The workshop on the basis of skill set development.
+							</p>
+							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
+						</div>
+						<div class="col-lg-3 col-md-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="img/ted.jpg" style="height:200px;width:250px">								
+							</div>
+							<p class="meta">23 November, 2019  |  
+							<a href="blog-single.html">
+								<h5>TEDX </h5>
+							</a>
+							<p>
+								TEDx brings the spirit of TED's mission of ideas worth spreading to local communities around the globe.
+							</p>
+							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
+						</div>
+						<div class="col-lg-3 col-md-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="img/nc.jpg" style="height:200px;width:250px">								
+							</div>
+							<p class="meta">25 December, 2019  |  
+							<a href="blog-single.html">
+								<h5>Neural Computing </h5>
+							</a>
+							<p>
+								Neural computation is the hypothetical information processing performed by networks of neurons
+							</p>
+							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
+						</div>
+
+						<div class="col-lg-3 col-md-6 single-blog">
+							<div class="thumb">
+								<img class="img-fluid" src="img/sc.jpg" style="height:200px;width:250px">								
+							</div>
+							<p class="meta">31 october, 2019  |  
+							<a href="blog-single.html">
+								<h5>Cyber Security </h5>
+							</a>
+							<p>
+								Computer security cybersecurity or information technology security is the protection of computer systems
+							</p>
+							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
+						</div>							
+					</div>
+				</div>	
+			</section>
+			<!-- End Posts Area -->			
+			<div style="margin-top: 100px"></div>
+
+			<!-- Start cta-two Area -->
+			<section class="cta-two-area" style="margin-bottom: -10px;">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 cta-left">
+							<h1>"NOT HELPFULL.....!!!!!!"</h1>
+						</div>
+						<div class="col-lg-4 cta-right">
+							<a class="primary-btn wh" href="#">EXPRESS YOUR VIEWS</a>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End cta-two Area -->
+						
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap" style="height: 380px; width: 102%; margin-left: -15px;margin-top:12px;">
+				<div class="container">
+					<div class="row" style="margin-top: -70px; margin-left: -50px;">
+						<div class="col-lg-2 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h3 style="color: white;">ABOUT US</h3><br>
+								<ul>
+									<li><a>"We serve to adopt new way of education.</a></li>
+									<li><a>The interactive way of analysing the education system.</a></li>
+									<li><a>which enhance skills for future developement".</a></li>
+								</ul>								
+							</div>
+						</div>
+
+						<div class="col-lg-2 col-md-6 col-sm-6" style="margin-left: 160px;">
+							<div class="single-footer-widget" style="width: 380px;">
+								<h3 style="color: white;">CONTACT US</h3><br>
+								<p style="font-size: 18px;"> Knowledge Enhancement Platform.<br>
+								Complex, Sector 29, Nigdi Pradhi Akurdi, Pune-411044.</p>
+								<h4> Contact : </h4>
+								<p>Phone : (020) 27640998<br>
+								Additional No: 9923602480<br>
+								Fax : +91-20-27653057<br>
+								Email : kefEdu999@gmanil.com</p>
+
+							</div>
+						</div>	
+						<!----- NEWS LETTER ------>																	
+						<div class="col-lg-4  col-md-6 col-sm-6" style="margin-left: 230px;">
+							<div class="single-footer-widget">
+								<h3 style="color: white;">NEWSLETTER</h3><br>
+								<p>Stay update with our latest</p>
+								<div class="" id="mc_embed_signup">
+									<form target="_blank" action="" method="get">
+										<div class="input-group">
+									    <input type="email" class="form-control" required placeholder="Enter Email Address">
+									    	<div class="input-group-btn">
+										    	<button class="btn btn-default" type="submit">
+										       		<span class="lnr lnr-arrow-right">GO</span>
+										     	</button>    
+									    	</div>	 
+									  	</div>
+									</form> 
+								</div>
+							</div>
+						</div>										
+					</div>
+					<div class="footer-bottom row align-items-center justify-content-between" style="margin-top: -50px;margin-left: 250px;">
+						<p style="color: white">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
+							All rights reserved || This Website is made with  by <i class="fa fa-heart-o" aria-hidden="true"></i> 
+							 <a href="https://the-programmer-guru.blogspot.com"> 
+							kefEdu999@gmail.com.in</p>
+						</p>
+						<div class="col-lg-6 col-sm-12 footer-social" style="margin-left: 330px;margin-top: -250px;">
+							<a href="https://www.facebook.com/DYPIMCAM/"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/mcambaplacement"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/iam.sumiit/?hl=en"><i class="fa fa-instagram"></i></a>
+							<a href="https://in.linkedin.com/in/dypimca-mba-88aa62148"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>						
+				</div>
+			</footer>	
+			<!-- End footer Area -->
+
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/main.css">
+
+			<script src="js/jquery.js"></script>			
+			<script src="js/main.js"></script>		
+			<script>
+				function toggleSidebar() {
+				document.getElementById("sidebar").classList.toggle("active");
+			}
+			</script>		
+		</body>
+	</html>
